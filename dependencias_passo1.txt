@@ -1,0 +1,11 @@
+// Adiciona Retrofit para chamadas de API
+implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+// Adiciona Glide para carregar imagens
+implementation 'com.github.bumptech.glide:glide:4.12.0'
+annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+// Adiciona Room para persistência de dados local
+implementation "androidx.room:room-runtime:2.4.3"
+kapt "androidx.room:room-compiler:2.4.3"
